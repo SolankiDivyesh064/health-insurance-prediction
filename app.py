@@ -5,7 +5,7 @@ import pickle
 
 # Load trained model (Assume model.pkl exists after training)
 def load_model():
-    with open("model.pkl", "rb") as file:
+    with open("./model.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
